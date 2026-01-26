@@ -13,6 +13,12 @@ The provisioning process is designed to be:
 - Reusable across multiple Raspberry Pi projects
 - Disabled automatically after successful provisioning
 
+
+## Project Information
+
+- Website: **https://pidevelop.com**
+- Hosted client: **https://piconnect.com/provision/web-ble-client**
+- Contact: **james@pidevelop.com**
 ---
 
 ## Key Features (MVP)
