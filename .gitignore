@@ -1,0 +1,46 @@
+# Build outputs
+/build/
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+compile_commands.json
+
+# Binaries and generated artifacts
+/provision-ble
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.out
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs / runtime artifacts (should not be in repo)
+*.log
+
+# Packaging / temp
+*.tmp
+*.bak
+
+# Core dumps
+core
+core.*
+
+# Python (not used, but common noise)
+__pycache__/
+*.pyc
+
+# env
+.env*
+!.env.example
+
