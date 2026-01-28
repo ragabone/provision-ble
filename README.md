@@ -47,6 +47,8 @@ The provisioning process is designed to be:
 - jsoncpp
 - BlueZ
 
+- use setupenv.sh in root directory -- run on a raspberrypi lite image
+
 ---
 
 ## Build (development)

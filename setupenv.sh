@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e
-
+## Environment setup script
 PROJECT_REPO="https://github.com/ragabone/provision-ble.git"
 PROJECT_DIR="/opt/provision-ble"
 BUILD_DIR="$PROJECT_DIR/build"
