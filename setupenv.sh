@@ -16,13 +16,17 @@ sudo apt install -y \
   libnm-dev \
   bluez 
 
+sudo rfkill unblock bluetooth
 echo waiting for bluez ...
 sleep 5
 #Setup Bluetooth
-sudo rfkill unblock bluetooth
-sudo bluetoothctl power on
-sudo bluetoothctl discoverable on
-sudo bluetoothctl pairable on
+sudo btmgmt power on
+sudo btmgmt connectable on
+sudo btmgmt discov on
+#sudo rfkill unblock bluetooth
+#sudo bluetoothctl power on
+#sudo bluetoothctl discoverable on
+#sudo bluetoothctl pairable on
 
 # get project
 sudo git clone "$PROJECT_REPO" "$PROJECT_DIR"
