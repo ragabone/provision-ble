@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e
-## Environment setup script
+
 PROJECT_REPO="https://github.com/ragabone/provision-ble.git"
 PROJECT_DIR="/opt/provision-ble"
 BUILD_DIR="$PROJECT_DIR/build"
@@ -16,6 +16,8 @@ sudo apt install -y \
   libnm-dev \
   bluez 
 
+echo waiting for bluez ...
+sleep 5
 #Setup Bluetooth
 sudo rfkill unblock bluetooth
 sudo bluetoothctl power on
@@ -52,4 +54,5 @@ EOF
 sudo systemctl daemon-reexec
 sudo systemctl daemon-reload
 sudo systemctl enable "$SERVICE_NAME"
+sudo systemctl start "$SERVICE_NAME"
 sudo systemctl status "$SERVICE_NAME" --no-pager
