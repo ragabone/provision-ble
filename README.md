@@ -58,37 +58,15 @@ mkdir -p build
 cd build
 cmake ..
 make
-
+```
 ---
 
-## Screenshots
-
-Below are example screens from the provisioning flow.
-
-### Bluetooth Connection
-
-![BLE connection](screenshots/ble-connect.png)
-
-### Wi-Fi Scan
-
-![Wi-Fi scan](screenshots/wifi-scan.png)
-
-### Wi-Fi Connect Dialog
-
-<img src="screenshots/wifi-connect-dialog.png" width="420" />
-
-### Connected Status
-
-![Wi-Fi connected](screenshots/wifi-connected-status.png)
-
-> Screenshots may contain example network names and IP addresses for illustration purposes only.
-
----
 ## Run Program
 
-sudo ./provision_ble
+```sudo ./provision_ble```
 OR
-Use as service -- see systemd directory in repo for setup instructions
+- Use as service -- see systemd directory in repo for setup instructions
+
 ---
 
 License
