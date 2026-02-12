@@ -64,8 +64,8 @@ make
 ## Run Program
 
 ```sudo ./provision_ble```
-OR
-- Use as service -- see systemd directory in repo for setup instructions
+
+Use as service -- see systemd directory in repo for setup instructions
 
 ---
 
