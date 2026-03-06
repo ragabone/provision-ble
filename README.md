@@ -17,7 +17,7 @@ The provisioning process is designed to be:
 ## Project Information
 
 - Website: **https://pidevelop.com**
-- Hosted client: **https://piconnect.com/provision/web-ble-client**
+- Hosted client: **https://pidevelop.com/provision/web-ble-client**
 - Contact: **james@pidevelop.com**
 ---
 
